@@ -1,0 +1,14 @@
+// Override styles for v-select component
+
+@import "../fonts";
+@import "../colors";
+
+.vs__search,
+.vs__search::placeholder,
+.vs__dropdown-toggle,
+.vs__dropdown-menu,
+.vs__dropdown-option
+{
+  font-family: $font-standart;
+  color: $text-black;
+}
